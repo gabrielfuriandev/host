@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa HOST</title>
+    <!-- ícones-->
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+    />
+    <!--Estilos-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar-container">
+            <nav>
+                <a href="#">
+                    <img src="img/hdchostlogo.png" alt="Empresa HOST" class="logo" />
+                </a>
+                <ul class="navbar-items">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Preços</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                    <li>
+                        <a href="#" class="default-btn">Entrar</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <div class="main-banner">
+                <h1>Empresa HOST</h1>
+                <p>Os melhores serviços para projetos!</p>
+            </div>
+            <section class="services-container">
+                <ul>
+                    <li>
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Segurança</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa exercitationem ea totam in dolorum rem rerum hic sed veniam officiis. Expedita, dolore cumque. Ipsa ea ratione alias tempora facere perspiciatis!
+                        </p>
+                    </li>
+                    <li>
+                        <i class="fas fa-rocket"></i>
+                        <h3>Performance</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa exercitationem ea totam in dolorum rem rerum hic sed veniam officiis. Expedita, dolore cumque. Ipsa ea ratione alias tempora facere perspiciatis!
+                        </p>
+                    </li>
+                    <li>
+                        <i class="fas fa-comments"></i>
+                        <h3>Suporte 24/7</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa exercitationem ea totam in dolorum rem rerum hic sed veniam officiis. Expedita, dolore cumque. Ipsa ea ratione alias tempora facere perspiciatis!
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <section class="pricing-container">
+                <h2>Planos e Preços</h2>
+                <p>Selecione o plano que atende as suas necessidades!</p>
+                <div class="plans-container">
+                    <div class="plan">
+                        <ul>
+                            <li class="preço">R$20/mês</li>
+                            <li class="nome-plano">Básico</li>
+                            <li>2GB de espaço</li>
+                            <li>1 Subdomínio</li>
+                            <li>20 contas de e-mail</li>
+                            <li>C-panel</li>
+                            <li>Suporte 24/7</li>
+                            <li class="plano-btn">Saber mais</li>
+                        </ul>
+                    </div>
+                        <div class="plan">
+                            <ul>
+                                <li class="preço">R$30/mês</li>
+                                <li class="nome-plano">Dedicado</li>
+                                <li>5GB de espaço</li>
+                                <li>10 Subdomínios</li>
+                                <li>40 contas de e-mail</li>
+                                <li>C-panel</li>
+                                <li>Suporte 24/7</li>
+                                <li class="plano-btn">Saber mais</li>
+                            </ul>
+                        </div>
+                            <div class="plan">
+                                <ul>
+                                    <li class="preço recomendado">R$50/mês</li>
+                                    <li class="nome-plano">Dedicado Plus</li>
+                                    <li>10GB de espaço</li>
+                                    <li>10 Subdomínios</li>
+                                    <li>100 contas de e-mail</li>
+                                    <li>C-panel</li>
+                                    <li>Suporte 24/7</li>
+                                    <li class="plano-btn recomendado">Saber mais</li>
+                                </ul>
+                            </div>
+                                <div class="plan">
+                                    <ul>
+                                        <li class="preço">R$100/mês</li>
+                                        <li class="nome-plano">Cloud</li>
+                                        <li>20GB de espaço</li>
+                                        <li>20 Subdomínios</li>
+                                        <li>200 contas de e-mail</li>
+                                        <li>C-panel</li>
+                                        <li>Suporte 24/7</li>
+                                        <li class="plano-btn">Saber mais</li>
+                                    </ul>
+                                </div>
+                </div>
+            </section>
+            <section class="searchdomain-container">
+                <h2>Qual domínio você quer para o seu site?</h2>
+                <p>Verifique se o domínio está disponível!</p>
+                <form>
+                    <input 
+                    type="text" 
+                    name="domain" 
+                    id="domain" 
+                    placeholder="Digite o domínio desejado"
+                    />
+                    <input type="submit" value="Procurar domínio" />
+                </form>
+            </section>
+            <section class="contact-container">
+                <h2>Mande uma mensagem</h2>
+                <p>Envie a sua mensagem, em até 4 horas um especialista entrará em contato</p>
+                <form>
+                    <input 
+                    type="text" 
+                    name="name" 
+                    id="name" 
+                    placeholder="Nome">
+                    <input 
+                    type="email" 
+                    name="email" 
+                    id="email" 
+                    placeholder="E-mail">
+                    <textarea 
+                    name="message" 
+                    id="message" 
+                    placeholder="Descreva o seu projeto...">
+                    </textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>HOST @ 2024</p>
+        </footer>
+    </div>
+</body>
+</html>
